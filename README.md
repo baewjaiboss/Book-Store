@@ -17,24 +17,24 @@ Tech Requirement:
 
 ## Workshop1 Data Collection with Python
 
-- Make Data Collection by collecting data from MySQL database and REST API with Python and bring both data to Convert to Pandas and join the data into one data and save to CSV with Pandas.
+- Make data collection by collecting data from MySQL database and REST API with python and bring both data to convert to pandas and join the data into one data and save to csv with pandas.
 
 ## Workshop2 Data Cleansing with Spark
 
-- Use Spark to do basic Data Profiling and see data details by doing Exploratory Data Analysis (EDA) and doing Data Cleansing with PySpark Spark SQL and save data to CSV with Spark.
+- Use spark to do basic data profiling and see data details by doing exploratory data analysis (EDA) and doing data cleansing with PySpark Spark SQL and save data to csv with spark.
 
 ## Workshop3 Upload to Data Lake
 
-- Use Cloud Storage as a Data Lake to test creating a Bucket and test Upload files using 3 methods: Web UI, Command line, Python.
+- Use cloud storage as a data lake to test creating a bucket and test upload files using 3 methods: Web UI, Command line, Python.
 
 ## Workshop4 Automated Data Pipeline with Airflow
 
-- Tested creating Cloud Composer, managing workflow with Airflow, and testing creating data pipelines.
+- Tested creating cloud composer, managing workflow with airflow, and testing creating data pipelines.
 
 ## Workshop5 Data Warehouse with BigQuery
 
-- Use BigQuery as a Data Warehouse to test creating a Dataset on BigQuery and test importing data using 3 methods: Web UI, bq command, GCSToBigQeryOperator and testing data queries on BigQuery with SQL.
+- Use BigQuery as a data warehouse to test creating a dataset on BigQuery and test importing data using 3 methods: Web UI, bq command, GCSToBigQeryOperator and testing data queries on BigQuery with SQL.
 
 ## Workshop6 Data Visualisation with Looker Studio
 
-- Test creating views on BigQuery and doing Data Visualization by creating a Dashboard on Looker Studio.
+- Test creating views on BigQuery and doing data visualization by creating a dashboard on Looker Studio.
