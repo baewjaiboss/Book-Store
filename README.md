@@ -2,47 +2,39 @@
 
 # Book Store
 
-Requirement ทางธุรกิจ:
+Business Requirement:
 
-- ทีม Product และทีม Marketing ต้องการขยาย
-  ตลาดมาประเทศไทย จึงอยากรู้ว่าสินค้าไหนที่
-  ขายดีเพื่อจะได้หาสินค้าที่ถูกใจผู้บริโภคมาวางขาย
-  และวางแผนจัดโปรโมชั่นได้เหมาะสม
+- The Product team and Marketing team want to expand the market to Thailand. Therefore, we want to know which products are selling well in order to find products that are pleasing to consumers to sell. and plan promotions appropriately
+- The Marketing team wants to know sales. and the number of customers in each country
+- The Marketing team wants to know which books are selling well so they can choose them to promote.
+- The Product team wants to know which categories of books are selling well in order to find more books in those areas to sell.
+- The Marketing team wants a system to search for books by sales by country to make marketing planning easier.
 
-- ทีม Marketing อยากรู้ยอดขาย และจำนวนลูกค้าในแต่ละประเทศ
-- ทีม Marketing อยากรู้ว่าหนังสือเล่มไหนขายดีเพื่อจะได้เลือกมาโปรโมทได้
-- ทีม Product อยากรู้ว่าหนังสือหมวดหมู่ไหนขายดีเพื่อจะได้ตามหาหนังสือด้านนั้นมาขายมากขึ้น
-- ทีม Marketing อยากได้ระบบค้นหาหนังสือตามยอดขาย ตามประเทศ เพื่อช่วยให้วางแผน Marketing ได้ง่ายขึ้น
+Tech Requirement:
 
-Requirement ทาง Tech:
-
-- บริษัทเก็บข้อมูลยอดขายจากบนเว็บไซต์ไว้ใน
-  Database
-- ต้องการให้ทีม Data Engineer เตรียมข้อมูลให้
-  Data Analyst ออฟฟิศไทย เอาข้อมูลนี้มาทำ
-  Report และ Dashboard เสนอทีม Product และ
-  Marketing
+- The company collects sales data from the website in a database.
+- Want the Data Engineer team to prepare data for the Data Analyst in the Thai office to use this data to make reports and dashboards to present to the Product and Marketing teams.
 
 ## Workshop1 Data Collection with Python
 
-- Get data from MySQL database และ Get data from REST API โดยนำข้อมูลทั้ง 2 Convert to Pandas และ join the data ให้เป็นตารางเดียวกันและ Save to CSV
+- Make Data Collection by collecting data from MySQL database and REST API with Python and bring both data to Convert to Pandas and join the data into one data and save to CSV with Pandas.
 
 ## Workshop2 Data Cleansing with Spark
 
-- ใช้ spark ในการทำ Data Profiling เบื้องต้น และดูรายละเอียดข้อมูลด้วยการทำ Exploratory Data Analysis (EDA) และ ทำ Data Cleansing และ Save data เป็น CSV
+- Use Spark to do basic Data Profiling and see data details by doing Exploratory Data Analysis (EDA) and doing Data Cleansing with PySpark Spark SQL and save data to CSV with Spark.
 
 ## Workshop3 Upload to Data Lake
 
-- ใช้ Cloud Storage เป็น Data Lake มีการทดสอบสร้าง Bucket และทดสอบ Upload file โดยใช้ 3 วิธีได้แก่ Web UI ,Command line ,Code Python
+- Use Cloud Storage as a Data Lake to test creating a Bucket and test Upload files using 3 methods: Web UI, Command line, Python.
 
 ## Workshop4 Automated Data Pipeline with Airflow
 
-- ทดสอบสร้าง Cloud Composer จัดการ workflow ด้วย Airflow และได้ทดสอบสร้าง Pipeline
+- Tested creating Cloud Composer, managing workflow with Airflow, and testing creating data pipelines.
 
 ## Workshop5 Data Warehouse with BigQuery
 
-- ทดสอบสร้าง Dataset บน BigQuery และทดสอบ Import ข้อมูลโดยใช้ 3 วิธีได้แก่ Web UI บน web browser ,bq command ด้วย BashOperator บน Airflow ,GCSToBigQeryOperator บน Airflow และได้ทดสอบเขียน SQL
+- Use BigQuery as a Data Warehouse to test creating a Dataset on BigQuery and test importing data using 3 methods: Web UI, bq command, GCSToBigQeryOperator and testing data queries on BigQuery with SQL.
 
 ## Workshop6 Data Visualisation with Looker Studio
 
-- ทดสอบการสร้าง view บน BigQuery และทดสอบสร้าง Dashboard บน Looker Studio
+- Test creating views on BigQuery and doing Data Visualization by creating a Dashboard on Looker Studio.
